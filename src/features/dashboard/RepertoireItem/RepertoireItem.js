@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from './RepertoireItem.module.css'
 const RepertoireList = ({listItem}) => {
     return ( 
-        <div>
+        <div className={styles.repertoireItem}>
             {listItem.name}
         </div>
      );

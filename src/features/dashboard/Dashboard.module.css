@@ -1,0 +1,9 @@
+.repertoireContainer {
+  display: flex;
+  padding: 2rem;
+}
+
+.repertoireItem {
+  background-color: aqua;
+  padding: 1.2rem;
+}

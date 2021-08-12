@@ -15,8 +15,8 @@ const initialState = {
     ]
 }
 
-export const practiceSlice = createSlice({
-    name: 'practice',
+export const dashboardSlice = createSlice({
+    name: 'dashboard',
     initialState,
     reducers : {
         addRepList : (state, action) => {
@@ -25,11 +25,11 @@ export const practiceSlice = createSlice({
     }
 })
 
-export const { addRepList } = practiceSlice.actions
+export const { addRepList } = dashboardSlice.actions
 
 
-export const selectRepertoireLists = state => state.practice.repertoireLists
-export const selectPieces = state => state.practice.pieces
+export const selectRepertoireLists = state => state.dashboard.repertoireLists
+export const selectPieces = state => state.dashboard.pieces
 
 
-export default practiceSlice.reducer
+export default dashboardSlice.reducer
